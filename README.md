@@ -18,7 +18,7 @@ Gustavo Ibara - 42210720 - 10389067
 
 5) Na função remove_elemento, usamos a função free da biblioteca padrão do C para liberar a memória alocada para cada célula quando ela é removida da lista.
 
-6) Vamos supor que temos um computador com 1GB (Gigabyte) de memória RAM disponível.
+6) Vamos supor que temos um computador com 1GB (Gigabyte) de memória RAM disponível:
 
   A estrutura celula tem um int e um ponteiro *prox. O int ocupa 4 bytes e um ponteiro ocupa 8 bytes. Portanto, o tamanho total de uma celula seria de 16 bytes.
 
