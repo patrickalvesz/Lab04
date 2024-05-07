@@ -6,7 +6,7 @@ Nicholas dos Santos Leal - 42210771 - 10409210
 
 Gustavo Ibara - 42210720 - 10389067
 
-# Perguntas
+# Questões
 
 1) No código, criamos três instâncias do objeto célula (ou seja, três valores na lista) usando um loop for e a função malloc. Cada nova célula é adicionada ao início da lista.
 
@@ -20,15 +20,15 @@ Gustavo Ibara - 42210720 - 10389067
 
 6) Vamos supor que temos um computador com 1GB (Gigabyte) de memória RAM disponível.
 
-A estrutura celula tem um int e um ponteiro *prox. O int ocupa 4 bytes e um ponteiro ocupa 8 bytes. Portanto, o tamanho total de uma celula seria de 16 bytes.
+  A estrutura celula tem um int e um ponteiro *prox. O int ocupa 4 bytes e um ponteiro ocupa 8 bytes. Portanto, o tamanho total de uma celula seria de 16 bytes.
 
-Sabemos que: 1 GB = 1,073,741,824 bytes.
+  Sabemos que: 1 GB = 1,073,741,824 bytes.
 
-Agora, podemos calcular o número máximo de células que podem ser alocadas dividindo a memória total disponível pelo tamanho de uma célula:
+  Agora, podemos calcular o número máximo de células que podem ser alocadas dividindo a memória total disponível pelo tamanho de uma célula:
 
-Número máximo de células = Memória total disponível / Tamanho de uma célula = 1,073,741,824 bytes / 16 bytes = 67,108,864 células
+  Número máximo de células = Memória total disponível / Tamanho de uma célula = 1,073,741,824 bytes / 16 bytes = 67,108,864 células
 
-Portanto, teoricamente, poderíamos alocar cerca de 67 milhões de células na memória
+  Portanto, teoricamente, poderíamos alocar cerca de 67 milhões de células na memória
 
 # Print de Execução
 
